@@ -2,9 +2,9 @@
   "meta": {
     "title": "Campus scoreboard",
     "line": "HubSpot Campus List is the source of truth. Peec, GSC, and local SERP are meters on that list. Goal is enrollment across campuses, not one city.",
-    "as_of": "28 Sep 2026",
-    "peec_window": "last 30d (30 Aug\u201328 Sep 2026). 150 prompts. Overall Alpha vis 44.7%.",
-    "gsc_window": "GSC dark this run (no computerUse on executor)",
+    "as_of": "5 Oct 2026",
+    "peec_window": "last 30d (6 Sep–5 Oct 2026). 150 prompts. Overall Alpha vis 43.8%.",
+    "gsc_window": "GSC dark this run (Google Verify it's you re-sign-in for info@alpha.school; nothing exported)",
     "local_score_as_of": "16 Aug 2026 pplx snapshot (not refreshed)",
     "hubspot_portal": "40051392",
     "hubspot_object": "p40051392_programs",
@@ -36,12 +36,12 @@
     },
     "sort": "Blind first, then Queued, then no city page, then lowest local score",
     "notes": [
-      "Overall Alpha Peec vis 44.2% \u2192 44.7% (+0.5 pp). Window 30 Aug\u201328 Sep 2026 (150 prompts; same ids as 21 Sep).",
-      "OAV default filter 44 \u2192 44: Jamaica Plain Announced\u2192Open (stayed on board); North/West Toronto display renamed to Alpha prefix; no campus additions/removals.",
-      "GSC dark this run (executor has no Task/computerUse); gsc cells null; CTR hole not assigned.",
-      "Biggest Peec movers vs 21 Sep: manhattan_beach \u221212.9; franklin +9.8; scottsdale \u22126.6; carrollton +4.9; charlotte +4.6.",
-      "San Juan still only default-filter Blind. Queued 0. Austin 3-set unchanged (NEAR-only for Find top private K-8\u2026; exact without 'for my child' missing).",
-      "SERP / pplx_score carried from 21 Sep (16 Aug pplx snapshot). Niche: HubSpot nichecom_profile \u2192 Verified (carry reviews when same slug); else carry prior; else Missing."
+      "Overall Alpha Peec vis 44.7% → 43.8% (-0.9 pp). Window 6 Sep–5 Oct 2026 (150 prompts; same ids as 28 Sep).",
+      "OAV default filter unchanged at 44; HubSpot new/removed/type/visibility/niche_additions all 0 vs 28 Sep.",
+      "GSC dark this run (Verify it's you re-sign-in); gsc cells null; CTR hole not assigned; 21 Sep export not reused.",
+      "Biggest Peec movers vs 28 Sep: manhattan_beach −8.5; east_bay −5.6; park_city −5.2; orange_county −4.6; greenwich −4.4.",
+      "San Juan still only default-filter Blind. Queued 0. Austin 3-set unchanged (NEAR-only for Find top private K-8…; exact without 'for my child' missing).",
+      "SERP / pplx_score carried from 28 Sep (16 Aug pplx snapshot). Niche: HubSpot nichecom_profile → Verified (carry reviews when same slug); else carry prior; else Missing."
     ]
   },
   "peec_markets": {
@@ -49,526 +49,526 @@
       "id": "chantilly",
       "label": "Chantilly",
       "prompt_count": 3,
-      "avg_vis": 88.9,
+      "avg_vis": 89.3,
       "prompts": [
+        "Find top private K-8 schools in Chantilly.",
         "Recommend an innovative K-8 school in Chantilly.",
-        "Recommend some K-8 schools in Chantilly that use personalized learning.",
-        "Find top private K-8 schools in Chantilly."
+        "Recommend some K-8 schools in Chantilly that use personalized learning."
       ],
-      "note": "vs 21 Sep 87.1 (+1.8)"
+      "note": "vs 28 Sep 88.9 (+0.4)"
     },
     "malibu": {
       "id": "malibu",
       "label": "Malibu",
       "prompt_count": 3,
-      "avg_vis": 79.2,
+      "avg_vis": 79.4,
       "prompts": [
+        "Find top private K-8 schools in Malibu.",
         "Recommend an innovative K-8 school in Malibu.",
-        "Recommend some K-8 schools in Malibu that use personalized learning.",
-        "Find top private K-8 schools in Malibu."
+        "Recommend some K-8 schools in Malibu that use personalized learning."
       ],
-      "note": "vs 21 Sep 75.9 (+3.3)"
+      "note": "vs 28 Sep 79.2 (+0.2)"
     },
     "southlake": {
       "id": "southlake",
       "label": "Southlake",
       "prompt_count": 3,
-      "avg_vis": 74.9,
+      "avg_vis": 75.6,
       "prompts": [
-        "Recommend some K-8 schools in Southlake that use personalized learning.",
         "Find top private K-8 schools in Southlake.",
-        "Recommend an innovative K-8 school in Southlake."
+        "Recommend an innovative K-8 school in Southlake.",
+        "Recommend some K-8 schools in Southlake that use personalized learning."
       ],
-      "note": "vs 21 Sep 74.5 (+0.4)"
-    },
-    "brownsville": {
-      "id": "brownsville",
-      "label": "Brownsville",
-      "prompt_count": 3,
-      "avg_vis": 74.2,
-      "prompts": [
-        "Recommend some K-8 schools in Brownsville that use personalized learning.",
-        "Find top private K-8 schools in Brownsville.",
-        "Recommend an innovative K-8 school in Brownsville."
-      ],
-      "note": "vs 21 Sep 73.0 (+1.2)"
-    },
-    "dorado": {
-      "id": "dorado",
-      "label": "Dorado",
-      "prompt_count": 3,
-      "avg_vis": 73.7,
-      "prompts": [
-        "Find top private K-8 schools in Dorado.",
-        "Recommend some K-8 schools in Dorado that use personalized learning.",
-        "Recommend an innovative K-8 school in Dorado."
-      ],
-      "note": "vs 21 Sep 69.4 (+4.3)"
+      "note": "vs 28 Sep 74.9 (+0.7)"
     },
     "the_woodlands": {
       "id": "the_woodlands",
       "label": "The Woodlands",
       "prompt_count": 3,
-      "avg_vis": 72.6,
+      "avg_vis": 73.9,
       "prompts": [
-        "Recommend some K-8 schools in The Woodlands that use personalized learning.",
         "Find top private K-8 schools in The Woodlands.",
-        "Recommend an innovative K-8 school in The Woodlands."
+        "Recommend an innovative K-8 school in The Woodlands.",
+        "Recommend some K-8 schools in The Woodlands that use personalized learning."
       ],
-      "note": "vs 21 Sep 69.5 (+3.1)"
+      "note": "vs 28 Sep 72.6 (+1.3)"
     },
-    "orange_county": {
-      "id": "orange_county",
-      "label": "Orange County",
+    "dorado": {
+      "id": "dorado",
+      "label": "Dorado",
       "prompt_count": 3,
-      "avg_vis": 70.0,
+      "avg_vis": 73.5,
       "prompts": [
-        "Recommend some K-8 schools in Orange County that use personalized learning.",
-        "Recommend an innovative K-8 school in Orange County.",
-        "Compare private schools in Orange County that feature personalized learning for advanced learners."
+        "Find top private K-8 schools in Dorado.",
+        "Recommend an innovative K-8 school in Dorado.",
+        "Recommend some K-8 schools in Dorado that use personalized learning."
       ],
-      "note": "vs 21 Sep 73.6 (-3.6)"
+      "note": "vs 28 Sep 73.7 (-0.2)"
     },
     "kirkland": {
       "id": "kirkland",
       "label": "Kirkland",
       "prompt_count": 3,
-      "avg_vis": 69.4,
+      "avg_vis": 72.9,
       "prompts": [
+        "Find top private K-8 schools in Kirkland.",
         "Recommend an innovative K-8 school in Kirkland.",
-        "Recommend some K-8 schools in Kirkland that use personalized learning.",
-        "Find top private K-8 schools in Kirkland."
+        "Recommend some K-8 schools in Kirkland that use personalized learning."
       ],
-      "note": "vs 21 Sep 65.9 (+3.5)"
+      "note": "vs 28 Sep 69.4 (+3.5)"
+    },
+    "brownsville": {
+      "id": "brownsville",
+      "label": "Brownsville",
+      "prompt_count": 3,
+      "avg_vis": 71.9,
+      "prompts": [
+        "Find top private K-8 schools in Brownsville.",
+        "Recommend an innovative K-8 school in Brownsville.",
+        "Recommend some K-8 schools in Brownsville that use personalized learning."
+      ],
+      "note": "vs 28 Sep 74.2 (-2.3)"
     },
     "carrollton": {
       "id": "carrollton",
       "label": "Carrollton",
       "prompt_count": 3,
-      "avg_vis": 66.8,
+      "avg_vis": 65.4,
       "prompts": [
         "Find top private K-8 schools in Carrollton.",
         "Recommend an innovative K-8 school in Carrollton.",
         "Recommend some K-8 schools in Carrollton that use personalized learning."
       ],
-      "note": "vs 21 Sep 61.9 (+4.9)"
+      "note": "vs 28 Sep 66.8 (-1.4)"
+    },
+    "orange_county": {
+      "id": "orange_county",
+      "label": "Orange County",
+      "prompt_count": 3,
+      "avg_vis": 65.4,
+      "prompts": [
+        "Compare private schools in Orange County that feature personalized learning for advanced learners.",
+        "Recommend an innovative K-8 school in Orange County.",
+        "Recommend some K-8 schools in Orange County that use personalized learning."
+      ],
+      "note": "vs 28 Sep 70.0 (-4.6)"
     },
     "palm_beach": {
       "id": "palm_beach",
       "label": "Palm Beach",
       "prompt_count": 3,
-      "avg_vis": 65.8,
+      "avg_vis": 64.3,
       "prompts": [
         "Find top private K-8 schools in Palm Beach.",
-        "Recommend some K-8 schools in Palm Beach that use personalized learning.",
-        "Recommend an innovative K-8 school in Palm Beach."
+        "Recommend an innovative K-8 school in Palm Beach.",
+        "Recommend some K-8 schools in Palm Beach that use personalized learning."
       ],
-      "note": "vs 21 Sep 64.6 (+1.2)"
-    },
-    "scottsdale": {
-      "id": "scottsdale",
-      "label": "Scottsdale",
-      "prompt_count": 2,
-      "avg_vis": 64.5,
-      "prompts": [
-        "Which schools in Scottsdale offer the best personalized curriculum for elementary students?",
-        "Compare the academic approaches of progressive elementary schools in Scottsdale."
-      ],
-      "note": "vs 21 Sep 71.1 (-6.6)"
+      "note": "vs 28 Sep 65.8 (-1.5)"
     },
     "fort_worth": {
       "id": "fort_worth",
       "label": "Fort Worth",
       "prompt_count": 3,
-      "avg_vis": 62.6,
+      "avg_vis": 63.6,
       "prompts": [
+        "Find top private K-8 schools in Fort Worth.",
         "Recommend an innovative K-8 school in Fort Worth.",
-        "Recommend some K-8 schools in Fort Worth that use personalized learning.",
-        "Find top private K-8 schools in Fort Worth."
+        "Recommend some K-8 schools in Fort Worth that use personalized learning."
       ],
-      "note": "vs 21 Sep 61.0 (+1.6)"
+      "note": "vs 28 Sep 62.6 (+1.0)"
     },
     "jamaica_plain": {
       "id": "jamaica_plain",
       "label": "Jamaica Plain",
       "prompt_count": 3,
-      "avg_vis": 61.8,
+      "avg_vis": 61.7,
       "prompts": [
-        "Recommend some K-8 schools in Jamaica Plain that use personalized learning.",
+        "Find top private K-8 schools in Jamaica Plain.",
         "Recommend an innovative K-8 school in Jamaica Plain.",
-        "Find top private K-8 schools in Jamaica Plain."
+        "Recommend some K-8 schools in Jamaica Plain that use personalized learning."
       ],
-      "note": "vs 21 Sep 58.6 (+3.2)"
+      "note": "vs 28 Sep 61.8 (-0.1)"
+    },
+    "scottsdale": {
+      "id": "scottsdale",
+      "label": "Scottsdale",
+      "prompt_count": 2,
+      "avg_vis": 61.7,
+      "prompts": [
+        "Compare the academic approaches of progressive elementary schools in Scottsdale.",
+        "Which schools in Scottsdale offer the best personalized curriculum for elementary students?"
+      ],
+      "note": "vs 28 Sep 64.5 (-2.8)"
     },
     "miami_beach": {
       "id": "miami_beach",
       "label": "Miami Beach",
       "prompt_count": 3,
-      "avg_vis": 61.4,
+      "avg_vis": 58.4,
       "prompts": [
         "Find top private K-8 schools in Miami Beach.",
-        "Recommend some K-8 schools in Miami Beach that use personalized learning.",
-        "Recommend an innovative K-8 school in Miami Beach."
+        "Recommend an innovative K-8 school in Miami Beach.",
+        "Recommend some K-8 schools in Miami Beach that use personalized learning."
       ],
-      "note": "vs 21 Sep 62.0 (-0.6)"
-    },
-    "palo_alto": {
-      "id": "palo_alto",
-      "label": "Palo Alto",
-      "prompt_count": 3,
-      "avg_vis": 58.1,
-      "prompts": [
-        "Recommend an innovative K-8 school in Palo Alto.",
-        "Find top private K-8 schools in Palo Alto.",
-        "Recommend some K-8 schools in Palo Alto that use personalized learning."
-      ],
-      "note": "vs 21 Sep 57.9 (+0.2)"
-    },
-    "plano": {
-      "id": "plano",
-      "label": "Plano",
-      "prompt_count": 4,
-      "avg_vis": 58.0,
-      "prompts": [
-        "Compare the benefits of AI-enhanced learning versus traditional schooling in Plano.",
-        "Compare private K-8 programs in Plano based on their approach to student growth.",
-        "Looking for gifted education programs in Plano with afternoon workshops.",
-        "Best private schools in Plano offering life skills workshops for kids."
-      ],
-      "note": "vs 21 Sep 59.8 (-1.8)"
-    },
-    "park_city": {
-      "id": "park_city",
-      "label": "Park City",
-      "prompt_count": 3,
-      "avg_vis": 56.6,
-      "prompts": [
-        "Find top private K-8 schools in Park City.",
-        "Recommend an innovative K-8 school in Park City.",
-        "Recommend some K-8 schools in Park City that use personalized learning."
-      ],
-      "note": "vs 21 Sep 56.8 (-0.2)"
-    },
-    "santa_monica": {
-      "id": "santa_monica",
-      "label": "Santa Monica",
-      "prompt_count": 3,
-      "avg_vis": 56.6,
-      "prompts": [
-        "Recommend some K-8 schools in Santa Monica that use personalized learning.",
-        "Find top private K-8 schools in Santa Monica.",
-        "Recommend an innovative K-8 school in Santa Monica."
-      ],
-      "note": "vs 21 Sep 55.6 (+1.0)"
-    },
-    "east_bay": {
-      "id": "east_bay",
-      "label": "East Bay",
-      "prompt_count": 3,
-      "avg_vis": 56.4,
-      "prompts": [
-        "Find top private K-8 schools in East Bay.",
-        "Recommend some K-8 schools in East Bay that use personalized learning.",
-        "Recommend an innovative K-8 school in East Bay."
-      ],
-      "note": "vs 21 Sep 54.7 (+1.7)"
+      "note": "vs 28 Sep 61.4 (-3.0)"
     },
     "lake_travis": {
       "id": "lake_travis",
       "label": "Lake Travis",
       "prompt_count": 3,
-      "avg_vis": 54.6,
+      "avg_vis": 58.2,
       "prompts": [
-        "Recommend some K-8 schools in Lake Travis that use personalized learning.",
+        "Find top private K-8 schools in Lake Travis.",
         "Recommend an innovative K-8 school in Lake Travis.",
-        "Find top private K-8 schools in Lake Travis."
+        "Recommend some K-8 schools in Lake Travis that use personalized learning."
       ],
-      "note": "vs 21 Sep 53.3 (+1.3)"
+      "note": "vs 28 Sep 54.6 (+3.6)"
+    },
+    "plano": {
+      "id": "plano",
+      "label": "Plano",
+      "prompt_count": 4,
+      "avg_vis": 57.0,
+      "prompts": [
+        "Best private schools in Plano offering life skills workshops for kids.",
+        "Compare private K-8 programs in Plano based on their approach to student growth.",
+        "Compare the benefits of AI-enhanced learning versus traditional schooling in Plano.",
+        "Looking for gifted education programs in Plano with afternoon workshops."
+      ],
+      "note": "vs 28 Sep 58.0 (-1.0)"
+    },
+    "palo_alto": {
+      "id": "palo_alto",
+      "label": "Palo Alto",
+      "prompt_count": 3,
+      "avg_vis": 56.2,
+      "prompts": [
+        "Find top private K-8 schools in Palo Alto.",
+        "Recommend an innovative K-8 school in Palo Alto.",
+        "Recommend some K-8 schools in Palo Alto that use personalized learning."
+      ],
+      "note": "vs 28 Sep 58.1 (-1.9)"
     },
     "boca_raton": {
       "id": "boca_raton",
       "label": "Boca Raton",
       "prompt_count": 3,
-      "avg_vis": 52.4,
+      "avg_vis": 53.3,
       "prompts": [
-        "Recommend some K-8 schools in Boca Raton that use personalized learning.",
         "Find top private K-8 schools in Boca Raton.",
-        "Recommend an innovative K-8 school in Boca Raton."
+        "Recommend an innovative K-8 school in Boca Raton.",
+        "Recommend some K-8 schools in Boca Raton that use personalized learning."
       ],
-      "note": "vs 21 Sep 54.3 (-1.9)"
+      "note": "vs 28 Sep 52.4 (+0.9)"
     },
-    "santa_barbara": {
-      "id": "santa_barbara",
-      "label": "Santa Barbara",
+    "santa_monica": {
+      "id": "santa_monica",
+      "label": "Santa Monica",
       "prompt_count": 3,
-      "avg_vis": 48.5,
+      "avg_vis": 52.7,
       "prompts": [
-        "Recommend an innovative K-8 school in Santa Barbara.",
-        "Recommend some K-8 schools in Santa Barbara that use personalized learning.",
-        "Find top private K-8 schools in Santa Barbara."
+        "Find top private K-8 schools in Santa Monica.",
+        "Recommend an innovative K-8 school in Santa Monica.",
+        "Recommend some K-8 schools in Santa Monica that use personalized learning."
       ],
-      "note": "vs 21 Sep 48.2 (+0.3)"
+      "note": "vs 28 Sep 56.6 (-3.9)"
     },
-    "miami": {
-      "id": "miami",
-      "label": "Miami",
-      "prompt_count": 5,
-      "avg_vis": 47.8,
-      "prompts": [
-        "Are there any schools in Miami using AI for gifted students?",
-        "Where can I find modern K-8 education in Miami?",
-        "Help me find quality life skills classes for kids in Miami.",
-        "Show me private middle schools located in Miami.",
-        "Find me a K-8 program in Miami that focuses on individual academic growth."
-      ],
-      "note": "vs 21 Sep 47.2 (+0.6)"
-    },
-    "la_jolla": {
-      "id": "la_jolla",
-      "label": "La Jolla",
+    "park_city": {
+      "id": "park_city",
+      "label": "Park City",
       "prompt_count": 3,
-      "avg_vis": 46.4,
+      "avg_vis": 51.4,
       "prompts": [
-        "Recommend some K-8 schools in La Jolla that use personalized learning.",
-        "Find top private K-8 schools in La Jolla.",
-        "Recommend an innovative K-8 school in La Jolla."
+        "Find top private K-8 schools in Park City.",
+        "Recommend an innovative K-8 school in Park City.",
+        "Recommend some K-8 schools in Park City that use personalized learning."
       ],
-      "note": "vs 21 Sep 44.8 (+1.6)"
+      "note": "vs 28 Sep 56.6 (-5.2)"
     },
-    "austin": {
-      "id": "austin",
-      "label": "Austin",
-      "prompt_count": 5,
-      "avg_vis": 45.7,
+    "east_bay": {
+      "id": "east_bay",
+      "label": "East Bay",
+      "prompt_count": 3,
+      "avg_vis": 50.8,
       "prompts": [
-        "Recommend kid-friendly life skills workshops in Austin.",
-        "Find top private K-8 schools in Austin for my child.",
-        "Recommend an innovative K-8 school in Austin.",
-        "Recommend some K-8 schools in Austin that use personalized learning.",
-        "Recommend top schools for gifted children in Austin."
+        "Find top private K-8 schools in East Bay.",
+        "Recommend an innovative K-8 school in East Bay.",
+        "Recommend some K-8 schools in East Bay that use personalized learning."
       ],
-      "note": "vs 21 Sep 46.3 (-0.6)"
-    },
-    "san_francisco": {
-      "id": "san_francisco",
-      "label": "San Francisco",
-      "prompt_count": 5,
-      "avg_vis": 45.1,
-      "prompts": [
-        "Find enrichment activities focused on real-world life skills in San Francisco.",
-        "Find me a tech-focused elementary school in San Francisco.",
-        "Show me K-8 programs in San Francisco that support accelerated learning.",
-        "Show me primary schools in San Francisco with AI-driven study models.",
-        "Recommend good elementary schools in San Francisco using modern teaching methods."
-      ],
-      "note": "vs 21 Sep 45.2 (-0.1)"
+      "note": "vs 28 Sep 56.4 (-5.6)"
     },
     "charlotte": {
       "id": "charlotte",
       "label": "Charlotte",
       "prompt_count": 3,
-      "avg_vis": 44.9,
+      "avg_vis": 48.6,
       "prompts": [
-        "Recommend some K-8 schools in Charlotte that use personalized learning.",
         "Find top private K-8 schools in Charlotte.",
-        "Recommend an innovative K-8 school in Charlotte."
+        "Recommend an innovative K-8 school in Charlotte.",
+        "Recommend some K-8 schools in Charlotte that use personalized learning."
       ],
-      "note": "vs 21 Sep 40.3 (+4.6)"
+      "note": "vs 28 Sep 44.9 (+3.7)"
     },
-    "greenwich": {
-      "id": "greenwich",
-      "label": "Greenwich",
+    "la_jolla": {
+      "id": "la_jolla",
+      "label": "La Jolla",
       "prompt_count": 3,
-      "avg_vis": 43.8,
+      "avg_vis": 48.3,
       "prompts": [
-        "Recommend some K-8 schools in Greenwich that use personalized learning.",
-        "Find top private K-8 schools in Greenwich.",
-        "Recommend an innovative K-8 school in Greenwich."
+        "Find top private K-8 schools in La Jolla.",
+        "Recommend an innovative K-8 school in La Jolla.",
+        "Recommend some K-8 schools in La Jolla that use personalized learning."
       ],
-      "note": "vs 21 Sep 46.3 (-2.5)"
+      "note": "vs 28 Sep 46.4 (+1.9)"
     },
-    "highland_park": {
-      "id": "highland_park",
-      "label": "Highland Park",
+    "santa_barbara": {
+      "id": "santa_barbara",
+      "label": "Santa Barbara",
       "prompt_count": 3,
-      "avg_vis": 43.6,
+      "avg_vis": 48.1,
       "prompts": [
-        "Find top private K-8 schools in Highland Park.",
-        "Recommend an innovative K-8 school in Highland Park.",
-        "Recommend some K-8 schools in Highland Park that use personalized learning."
+        "Find top private K-8 schools in Santa Barbara.",
+        "Recommend an innovative K-8 school in Santa Barbara.",
+        "Recommend some K-8 schools in Santa Barbara that use personalized learning."
       ],
-      "note": "vs 21 Sep 43.4 (+0.2)"
+      "note": "vs 28 Sep 48.5 (-0.4)"
     },
-    "tulsa": {
-      "id": "tulsa",
-      "label": "Tulsa",
-      "prompt_count": 3,
-      "avg_vis": 42.0,
+    "miami": {
+      "id": "miami",
+      "label": "Miami",
+      "prompt_count": 5,
+      "avg_vis": 46.8,
       "prompts": [
-        "Find top private K-8 schools in Tulsa.",
-        "Recommend an innovative K-8 school in Tulsa.",
-        "Recommend some K-8 schools in Tulsa that use personalized learning."
+        "Are there any schools in Miami using AI for gifted students?",
+        "Find me a K-8 program in Miami that focuses on individual academic growth.",
+        "Help me find quality life skills classes for kids in Miami.",
+        "Show me private middle schools located in Miami.",
+        "Where can I find modern K-8 education in Miami?"
       ],
-      "note": "vs 21 Sep 42.7 (-0.7)"
+      "note": "vs 28 Sep 47.8 (-1.0)"
     },
     "franklin": {
       "id": "franklin",
       "label": "Franklin",
       "prompt_count": 3,
-      "avg_vis": 41.7,
+      "avg_vis": 44.2,
       "prompts": [
         "Find top private K-8 schools in Franklin.",
-        "Recommend some K-8 schools in Franklin that use personalized learning.",
-        "Recommend an innovative K-8 school in Franklin."
+        "Recommend an innovative K-8 school in Franklin.",
+        "Recommend some K-8 schools in Franklin that use personalized learning."
       ],
-      "note": "vs 21 Sep 31.9 (+9.8)"
+      "note": "vs 28 Sep 41.7 (+2.5)"
+    },
+    "austin": {
+      "id": "austin",
+      "label": "Austin",
+      "prompt_count": 5,
+      "avg_vis": 43.1,
+      "prompts": [
+        "Find top private K-8 schools in Austin for my child.",
+        "Recommend an innovative K-8 school in Austin.",
+        "Recommend kid-friendly life skills workshops in Austin.",
+        "Recommend some K-8 schools in Austin that use personalized learning.",
+        "Recommend top schools for gifted children in Austin."
+      ],
+      "note": "vs 28 Sep 45.7 (-2.6)"
+    },
+    "highland_park": {
+      "id": "highland_park",
+      "label": "Highland Park",
+      "prompt_count": 3,
+      "avg_vis": 42.4,
+      "prompts": [
+        "Find top private K-8 schools in Highland Park.",
+        "Recommend an innovative K-8 school in Highland Park.",
+        "Recommend some K-8 schools in Highland Park that use personalized learning."
+      ],
+      "note": "vs 28 Sep 43.6 (-1.2)"
+    },
+    "san_francisco": {
+      "id": "san_francisco",
+      "label": "San Francisco",
+      "prompt_count": 5,
+      "avg_vis": 41.4,
+      "prompts": [
+        "Find enrichment activities focused on real-world life skills in San Francisco.",
+        "Find me a tech-focused elementary school in San Francisco.",
+        "Recommend good elementary schools in San Francisco using modern teaching methods.",
+        "Show me K-8 programs in San Francisco that support accelerated learning.",
+        "Show me primary schools in San Francisco with AI-driven study models."
+      ],
+      "note": "vs 28 Sep 45.1 (-3.7)"
+    },
+    "tulsa": {
+      "id": "tulsa",
+      "label": "Tulsa",
+      "prompt_count": 3,
+      "avg_vis": 39.9,
+      "prompts": [
+        "Find top private K-8 schools in Tulsa.",
+        "Recommend an innovative K-8 school in Tulsa.",
+        "Recommend some K-8 schools in Tulsa that use personalized learning."
+      ],
+      "note": "vs 28 Sep 42.0 (-2.1)"
+    },
+    "greenwich": {
+      "id": "greenwich",
+      "label": "Greenwich",
+      "prompt_count": 3,
+      "avg_vis": 39.4,
+      "prompts": [
+        "Find top private K-8 schools in Greenwich.",
+        "Recommend an innovative K-8 school in Greenwich.",
+        "Recommend some K-8 schools in Greenwich that use personalized learning."
+      ],
+      "note": "vs 28 Sep 43.8 (-4.4)"
     },
     "nashville": {
       "id": "nashville",
       "label": "Nashville",
       "prompt_count": 3,
-      "avg_vis": 37.2,
+      "avg_vis": 33.8,
       "prompts": [
         "Find top private K-8 schools in Nashville.",
-        "Recommend some K-8 schools in Nashville that use personalized learning.",
-        "Recommend an innovative K-8 school in Nashville."
+        "Recommend an innovative K-8 school in Nashville.",
+        "Recommend some K-8 schools in Nashville that use personalized learning."
       ],
-      "note": "vs 21 Sep 38.0 (-0.8)"
+      "note": "vs 28 Sep 37.2 (-3.4)"
     },
     "raleigh": {
       "id": "raleigh",
       "label": "Raleigh",
       "prompt_count": 3,
-      "avg_vis": 31.1,
+      "avg_vis": 32.3,
       "prompts": [
-        "Recommend some K-8 schools in Raleigh that use personalized learning.",
+        "Find top private K-8 schools in Raleigh.",
         "Recommend an innovative K-8 school in Raleigh.",
-        "Find top private K-8 schools in Raleigh."
+        "Recommend some K-8 schools in Raleigh that use personalized learning."
       ],
-      "note": "vs 21 Sep 31.5 (-0.4)"
+      "note": "vs 28 Sep 31.1 (+1.2)"
     },
     "dallas": {
       "id": "dallas",
       "label": "Dallas",
       "prompt_count": 5,
-      "avg_vis": 29.9,
+      "avg_vis": 31.4,
       "prompts": [
-        "Looking for a K-8 school in Dallas that uses AI for learning.",
         "I need a Dallas private school that offers individualized learning plans for students.",
+        "Looking for a K-8 school in Dallas that uses AI for learning.",
         "Need a Dallas school for my child that balances academics with life skills workshops.",
         "What are the best schools in Dallas for kids who need a faster pace?",
         "Where can I find intensive life skills workshops for students in Dallas?"
       ],
-      "note": "vs 21 Sep 29.3 (+0.6)"
+      "note": "vs 28 Sep 29.9 (+1.5)"
     },
     "los_angeles": {
       "id": "los_angeles",
       "label": "Los Angeles",
       "prompt_count": 5,
-      "avg_vis": 29.3,
+      "avg_vis": 27.3,
       "prompts": [
         "Are there any afternoon workshops for students that emphasize essential life skills in Los Angeles?",
+        "Find me a private elementary school in Los Angeles focusing on accelerated mastery.",
         "Help me locate Los Angeles schools that offer customized learning plans.",
         "List private K-8 institutions in Los Angeles that focus on life skills.",
-        "Show me schools with personalized learning in Los Angeles.",
-        "Find me a private elementary school in Los Angeles focusing on accelerated mastery."
+        "Show me schools with personalized learning in Los Angeles."
       ],
-      "note": "vs 21 Sep 29.2 (+0.1)"
+      "note": "Peec text is Los Angeles, not the campus name."
     },
     "boston": {
       "id": "boston",
       "label": "Boston",
       "prompt_count": 3,
-      "avg_vis": 27.0,
+      "avg_vis": 25.3,
       "prompts": [
-        "Recommend an innovative K-8 school in Boston.",
         "Find top private K-8 schools in Boston.",
+        "Recommend an innovative K-8 school in Boston.",
         "Recommend some K-8 schools in Boston that use personalized learning."
       ],
-      "note": "vs 21 Sep 25.9 (+1.1)"
+      "note": "vs 28 Sep 27.0 (-1.7)"
     },
     "atlanta": {
       "id": "atlanta",
       "label": "Atlanta",
       "prompt_count": 3,
-      "avg_vis": 23.9,
+      "avg_vis": 24.5,
       "prompts": [
         "Find top private K-8 schools in Atlanta.",
         "Recommend an innovative K-8 school in Atlanta.",
         "Recommend some K-8 schools in Atlanta that use personalized learning."
       ],
-      "note": "vs 21 Sep 22.3 (+1.6)"
-    },
-    "houston": {
-      "id": "houston",
-      "label": "Houston",
-      "prompt_count": 3,
-      "avg_vis": 20.7,
-      "prompts": [
-        "Find top private K-8 schools in Houston.",
-        "Recommend some K-8 schools in Houston that use personalized learning.",
-        "Recommend an innovative K-8 school in Houston."
-      ],
-      "note": "vs 21 Sep 17.1 (+3.6)"
+      "note": "vs 28 Sep 23.9 (+0.6)"
     },
     "oklahoma_city": {
       "id": "oklahoma_city",
       "label": "Oklahoma City",
       "prompt_count": 3,
-      "avg_vis": 20.0,
+      "avg_vis": 24.0,
       "prompts": [
-        "Recommend some K-8 schools in Oklahoma City that use personalized learning.",
+        "Find top private K-8 schools in Oklahoma City.",
         "Recommend an innovative K-8 school in Oklahoma City.",
-        "Find top private K-8 schools in Oklahoma City."
+        "Recommend some K-8 schools in Oklahoma City that use personalized learning."
       ],
-      "note": "vs 21 Sep 18.2 (+1.8)"
+      "note": "vs 28 Sep 20.0 (+4.0)"
+    },
+    "houston": {
+      "id": "houston",
+      "label": "Houston",
+      "prompt_count": 3,
+      "avg_vis": 21.8,
+      "prompts": [
+        "Find top private K-8 schools in Houston.",
+        "Recommend an innovative K-8 school in Houston.",
+        "Recommend some K-8 schools in Houston that use personalized learning."
+      ],
+      "note": "vs 28 Sep 20.7 (+1.1)"
     },
     "chicago": {
       "id": "chicago",
       "label": "Chicago",
       "prompt_count": 3,
-      "avg_vis": 16.9,
+      "avg_vis": 18.9,
       "prompts": [
-        "Recommend some K-8 schools in Chicago that use personalized learning.",
+        "Find top private K-8 schools in Chicago.",
         "Recommend an innovative K-8 school in Chicago.",
-        "Find top private K-8 schools in Chicago."
+        "Recommend some K-8 schools in Chicago that use personalized learning."
       ],
-      "note": "vs 21 Sep 16.6 (+0.3)"
-    },
-    "manhattan_beach": {
-      "id": "manhattan_beach",
-      "label": "Manhattan Beach",
-      "prompt_count": 3,
-      "avg_vis": 15.5,
-      "prompts": [
-        "Recommend an innovative K-8 school in Manhattan Beach.",
-        "Recommend some K-8 schools in Manhattan Beach that use personalized learning.",
-        "Find top private K-8 schools in Manhattan Beach."
-      ],
-      "note": "vs 21 Sep 28.4 (-12.9)"
+      "note": "vs 28 Sep 16.9 (+2.0)"
     },
     "new_york_city": {
       "id": "new_york_city",
       "label": "New York City",
       "prompt_count": 1,
-      "avg_vis": 12.8,
+      "avg_vis": 16.9,
       "prompts": [
         "What are the most innovative private elementary schools in New York City?"
       ],
-      "note": "vs 21 Sep 11.8 (+1.0)",
+      "note": "NYC tracked in Peec, excluded from local board.",
       "exclude_from_local_board": true
     },
     "denver": {
       "id": "denver",
       "label": "Denver",
       "prompt_count": 3,
-      "avg_vis": 8.0,
+      "avg_vis": 10.2,
       "prompts": [
+        "Find top private K-8 schools in Denver.",
         "Recommend an innovative K-8 school in Denver.",
-        "Recommend some K-8 schools in Denver that use personalized learning.",
-        "Find top private K-8 schools in Denver."
+        "Recommend some K-8 schools in Denver that use personalized learning."
       ],
-      "note": "vs 21 Sep 7.2 (+0.8)"
+      "note": "vs 28 Sep 8.0 (+2.2)"
+    },
+    "manhattan_beach": {
+      "id": "manhattan_beach",
+      "label": "Manhattan Beach",
+      "prompt_count": 3,
+      "avg_vis": 7.0,
+      "prompts": [
+        "Find top private K-8 schools in Manhattan Beach.",
+        "Recommend an innovative K-8 school in Manhattan Beach.",
+        "Recommend some K-8 schools in Manhattan Beach that use personalized learning."
+      ],
+      "note": "vs 28 Sep 15.5 (-8.5)"
     },
     "washington_dc": {
       "id": "washington_dc",
@@ -576,13 +576,13 @@
       "prompt_count": 5,
       "avg_vis": 2.0,
       "prompts": [
-        "Are there any tech-focused private schools for grades K-8 in Washington DC?",
         "Are there any forward-thinking private schools in Washington DC?",
-        "How does AI-driven curriculum in Washington DC schools benefit high-achieving students?",
         "Are there any schools in Washington DC using tech-based personalized learning for kids?",
+        "Are there any tech-focused private schools for grades K-8 in Washington DC?",
+        "How does AI-driven curriculum in Washington DC schools benefit high-achieving students?",
         "Need affordable life skills training for middle schoolers in Washington DC."
       ],
-      "note": "vs 21 Sep 2.3 (-0.3)"
+      "note": "Peec text is Washington DC, not the campus name."
     },
     "lexington": {
       "id": "lexington",
@@ -594,7 +594,7 @@
         "Recommend an innovative K-8 school in Lexington.",
         "Recommend some K-8 schools in Lexington that use personalized learning."
       ],
-      "note": "vs 21 Sep 2.2 (-0.5)"
+      "note": "vs 28 Sep 1.7 (+0.0)"
     },
     "marin_county": {
       "id": "marin_county",
@@ -602,11 +602,11 @@
       "prompt_count": 3,
       "avg_vis": 0.0,
       "prompts": [
-        "Recommend some K-8 schools in Marin County that use personalized learning.",
+        "Find top private K-8 schools in Marin County.",
         "Recommend an innovative K-8 school in Marin County.",
-        "Find top private K-8 schools in Marin County."
+        "Recommend some K-8 schools in Marin County that use personalized learning."
       ],
-      "note": "vs 21 Sep 0.0 (+0.0)"
+      "note": "vs 28 Sep 0.0 (+0.0)"
     }
   },
   "campuses": [
@@ -632,7 +632,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "boulder",
@@ -656,7 +656,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "bryn-mawr",
@@ -680,7 +680,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "burlington",
@@ -704,7 +704,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "charleston",
@@ -728,7 +728,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "columbus",
@@ -752,7 +752,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "detroit",
@@ -776,31 +776,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
-    },
-    {
-      "id": "folsom",
-      "hubspot_name": "Alpha Folsom",
-      "display": "Folsom",
-      "city": "Folsom",
-      "state": "California",
-      "type": null,
-      "visibility": "Visible",
-      "show_in_dashboard": false,
-      "website": "https://alpha.school/folsom/",
-      "has_city_page": true,
-      "peec": null,
-      "gsc": null,
-      "serp": null,
-      "pplx_score": null,
-      "niche": {
-        "status": "Missing",
-        "reviews": null,
-        "slug": null
-      },
-      "exclude_from_local_board": false,
-      "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "fort-lauderdale",
@@ -824,31 +800,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
-    },
-    {
-      "id": "frisco",
-      "hubspot_name": "Alpha Frisco",
-      "display": "Frisco",
-      "city": "Frisco",
-      "state": "Texas",
-      "type": null,
-      "visibility": "Visible",
-      "show_in_dashboard": false,
-      "website": "https://alpha.school/frisco",
-      "has_city_page": true,
-      "peec": null,
-      "gsc": null,
-      "serp": null,
-      "pplx_score": null,
-      "niche": {
-        "status": "Missing",
-        "reviews": null,
-        "slug": null
-      },
-      "exclude_from_local_board": false,
-      "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "hudson-valley",
@@ -872,7 +824,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "indianapolis",
@@ -896,7 +848,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "jackson-hole",
@@ -920,7 +872,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "jacksonville",
@@ -944,7 +896,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "kansas-city",
@@ -968,7 +920,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "key-biscayne",
@@ -992,7 +944,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "las-vegas",
@@ -1016,7 +968,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "london",
@@ -1040,7 +992,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "mclean",
@@ -1064,7 +1016,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "milwaukee",
@@ -1088,7 +1040,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "minneapolis",
@@ -1112,7 +1064,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "monaco",
@@ -1136,7 +1088,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "north-toronto",
@@ -1160,7 +1112,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "orlando",
@@ -1184,7 +1136,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "philadelphia",
@@ -1208,7 +1160,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "pioneer-valley",
@@ -1232,7 +1184,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "portland",
@@ -1256,7 +1208,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "richmond",
@@ -1280,7 +1232,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "salt-lake-city",
@@ -1304,7 +1256,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "san-antonio",
@@ -1328,31 +1280,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
-    },
-    {
-      "id": "san-juan",
-      "hubspot_name": "Alpha San Juan",
-      "display": "San Juan",
-      "city": "San Juan",
-      "state": "PR",
-      "type": "Announced",
-      "visibility": "Visible",
-      "show_in_dashboard": true,
-      "website": "https://alpha.school/san-juan/",
-      "has_city_page": true,
-      "peec": null,
-      "gsc": null,
-      "serp": null,
-      "pplx_score": null,
-      "niche": {
-        "status": "Missing",
-        "reviews": null,
-        "slug": null
-      },
-      "exclude_from_local_board": false,
-      "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "sarasota",
@@ -1376,7 +1304,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "sausalito",
@@ -1400,7 +1328,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "seattle",
@@ -1424,7 +1352,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "short-hills",
@@ -1448,31 +1376,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
-    },
-    {
-      "id": "tampa",
-      "hubspot_name": "Alpha Tampa",
-      "display": "Tampa",
-      "city": "Tampa",
-      "state": "Florida",
-      "type": "Pre-Announcement",
-      "visibility": "Visible",
-      "show_in_dashboard": null,
-      "website": "https://alpha.school/tampa/",
-      "has_city_page": true,
-      "peec": null,
-      "gsc": null,
-      "serp": null,
-      "pplx_score": null,
-      "niche": {
-        "status": "Missing",
-        "reviews": null,
-        "slug": null
-      },
-      "exclude_from_local_board": false,
-      "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "the-hamptons",
@@ -1496,7 +1400,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "toronto",
@@ -1520,7 +1424,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "vancouver",
@@ -1544,7 +1448,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "west-toronto",
@@ -1568,7 +1472,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "western-massachusetts",
@@ -1592,7 +1496,103 @@
       },
       "exclude_from_local_board": false,
       "hole": "Blind",
-      "next_meter": "add the Austin 3-set for this city (if a Peec slot is free)"
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
+    },
+    {
+      "id": "folsom",
+      "hubspot_name": "Alpha Folsom",
+      "display": "Folsom",
+      "city": "Folsom",
+      "state": "California",
+      "type": null,
+      "visibility": "Visible",
+      "show_in_dashboard": false,
+      "website": "https://alpha.school/folsom/",
+      "has_city_page": true,
+      "peec": null,
+      "gsc": null,
+      "serp": null,
+      "pplx_score": null,
+      "niche": {
+        "status": "Missing",
+        "reviews": null,
+        "slug": null
+      },
+      "exclude_from_local_board": false,
+      "hole": "Blind",
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
+    },
+    {
+      "id": "frisco",
+      "hubspot_name": "Alpha Frisco",
+      "display": "Frisco",
+      "city": "Frisco",
+      "state": "Texas",
+      "type": null,
+      "visibility": "Visible",
+      "show_in_dashboard": false,
+      "website": "https://alpha.school/frisco",
+      "has_city_page": true,
+      "peec": null,
+      "gsc": null,
+      "serp": null,
+      "pplx_score": null,
+      "niche": {
+        "status": "Missing",
+        "reviews": null,
+        "slug": null
+      },
+      "exclude_from_local_board": false,
+      "hole": "Blind",
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
+    },
+    {
+      "id": "san-juan",
+      "hubspot_name": "Alpha San Juan",
+      "display": "San Juan",
+      "city": "San Juan",
+      "state": "PR",
+      "type": "Announced",
+      "visibility": "Visible",
+      "show_in_dashboard": true,
+      "website": "https://alpha.school/san-juan/",
+      "has_city_page": true,
+      "peec": null,
+      "gsc": null,
+      "serp": null,
+      "pplx_score": null,
+      "niche": {
+        "status": "Missing",
+        "reviews": null,
+        "slug": null
+      },
+      "exclude_from_local_board": false,
+      "hole": "Blind",
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
+    },
+    {
+      "id": "tampa",
+      "hubspot_name": "Alpha Tampa",
+      "display": "Tampa",
+      "city": "Tampa",
+      "state": "Florida",
+      "type": "Pre-Announcement",
+      "visibility": "Visible",
+      "show_in_dashboard": null,
+      "website": "https://alpha.school/tampa/",
+      "has_city_page": true,
+      "peec": null,
+      "gsc": null,
+      "serp": null,
+      "pplx_score": null,
+      "niche": {
+        "status": "Missing",
+        "reviews": null,
+        "slug": null
+      },
+      "exclude_from_local_board": false,
+      "hole": "Blind",
+      "next_meter": "add the Austin 3-set for this city (only if a Peec slot is free)"
     },
     {
       "id": "beverly-hills",
@@ -1609,15 +1609,15 @@
         "market": "los_angeles",
         "label": "Los Angeles",
         "prompt_count": 5,
-        "avg_vis": 29.3,
+        "avg_vis": 27.3,
         "prompts": [
           "Are there any afternoon workshops for students that emphasize essential life skills in Los Angeles?",
+          "Find me a private elementary school in Los Angeles focusing on accelerated mastery.",
           "Help me locate Los Angeles schools that offer customized learning plans.",
           "List private K-8 institutions in Los Angeles that focus on life skills.",
-          "Show me schools with personalized learning in Los Angeles.",
-          "Find me a private elementary school in Los Angeles focusing on accelerated mastery."
+          "Show me schools with personalized learning in Los Angeles."
         ],
-        "note": "vs 21 Sep 29.2 (+0.1)"
+        "note": "Peec text is Los Angeles, not the campus name."
       },
       "gsc": null,
       "serp": null,
@@ -1629,7 +1629,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No page",
-      "next_meter": "city page missing \u2014 do not add Peec for a city not on this list"
+      "next_meter": "city page missing — do not add Peec for a city not on this list"
     },
     {
       "id": "chicago-north-shore",
@@ -1646,13 +1646,13 @@
         "market": "chicago",
         "label": "Chicago",
         "prompt_count": 3,
-        "avg_vis": 16.9,
+        "avg_vis": 18.9,
         "prompts": [
-          "Recommend some K-8 schools in Chicago that use personalized learning.",
+          "Find top private K-8 schools in Chicago.",
           "Recommend an innovative K-8 school in Chicago.",
-          "Find top private K-8 schools in Chicago."
+          "Recommend some K-8 schools in Chicago that use personalized learning."
         ],
-        "note": "vs 21 Sep 16.6 (+0.3)"
+        "note": "vs 28 Sep 16.9 (+2.0)"
       },
       "gsc": null,
       "serp": null,
@@ -1664,7 +1664,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No page",
-      "next_meter": "city page missing \u2014 do not add Peec for a city not on this list"
+      "next_meter": "city page missing — do not add Peec for a city not on this list"
     },
     {
       "id": "marin-county",
@@ -1683,11 +1683,11 @@
         "prompt_count": 3,
         "avg_vis": 0.0,
         "prompts": [
-          "Recommend some K-8 schools in Marin County that use personalized learning.",
+          "Find top private K-8 schools in Marin County.",
           "Recommend an innovative K-8 school in Marin County.",
-          "Find top private K-8 schools in Marin County."
+          "Recommend some K-8 schools in Marin County that use personalized learning."
         ],
-        "note": "vs 21 Sep 0.0 (+0.0)"
+        "note": "vs 28 Sep 0.0 (+0.0)"
       },
       "gsc": null,
       "serp": null,
@@ -1699,12 +1699,12 @@
       },
       "exclude_from_local_board": false,
       "hole": "No page",
-      "next_meter": "city page missing \u2014 do not add Peec for a city not on this list"
+      "next_meter": "city page missing — do not add Peec for a city not on this list"
     },
     {
       "id": "miami-wynwood",
       "hubspot_name": "Miami Wynwood",
-      "display": "Miami \u2014 Wynwood",
+      "display": "Miami — Wynwood",
       "city": "Miami",
       "state": "Florida",
       "type": "Pre-Announcement",
@@ -1716,15 +1716,15 @@
         "market": "miami",
         "label": "Miami",
         "prompt_count": 5,
-        "avg_vis": 47.8,
+        "avg_vis": 46.8,
         "prompts": [
           "Are there any schools in Miami using AI for gifted students?",
-          "Where can I find modern K-8 education in Miami?",
+          "Find me a K-8 program in Miami that focuses on individual academic growth.",
           "Help me find quality life skills classes for kids in Miami.",
           "Show me private middle schools located in Miami.",
-          "Find me a K-8 program in Miami that focuses on individual academic growth."
+          "Where can I find modern K-8 education in Miami?"
         ],
-        "note": "vs 21 Sep 47.2 (+0.6)"
+        "note": "vs 28 Sep 47.8 (-1.0)"
       },
       "gsc": null,
       "serp": null,
@@ -1736,7 +1736,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No page",
-      "next_meter": "city page missing \u2014 do not add Peec for a city not on this list"
+      "next_meter": "city page missing — do not add Peec for a city not on this list"
     },
     {
       "id": "plano",
@@ -1753,14 +1753,14 @@
         "market": "plano",
         "label": "Plano",
         "prompt_count": 4,
-        "avg_vis": 58.0,
+        "avg_vis": 57.0,
         "prompts": [
-          "Compare the benefits of AI-enhanced learning versus traditional schooling in Plano.",
+          "Best private schools in Plano offering life skills workshops for kids.",
           "Compare private K-8 programs in Plano based on their approach to student growth.",
-          "Looking for gifted education programs in Plano with afternoon workshops.",
-          "Best private schools in Plano offering life skills workshops for kids."
+          "Compare the benefits of AI-enhanced learning versus traditional schooling in Plano.",
+          "Looking for gifted education programs in Plano with afternoon workshops."
         ],
-        "note": "vs 21 Sep 59.8 (-1.8)"
+        "note": "vs 28 Sep 58.0 (-1.0)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -1772,7 +1772,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "atlanta",
@@ -1789,13 +1789,13 @@
         "market": "atlanta",
         "label": "Atlanta",
         "prompt_count": 3,
-        "avg_vis": 23.9,
+        "avg_vis": 24.5,
         "prompts": [
           "Find top private K-8 schools in Atlanta.",
           "Recommend an innovative K-8 school in Atlanta.",
           "Recommend some K-8 schools in Atlanta that use personalized learning."
         ],
-        "note": "vs 21 Sep 22.3 (+1.6)"
+        "note": "vs 28 Sep 23.9 (+0.6)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -1807,7 +1807,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "east-bay",
@@ -1824,13 +1824,13 @@
         "market": "east_bay",
         "label": "East Bay",
         "prompt_count": 3,
-        "avg_vis": 56.4,
+        "avg_vis": 50.8,
         "prompts": [
           "Find top private K-8 schools in East Bay.",
-          "Recommend some K-8 schools in East Bay that use personalized learning.",
-          "Recommend an innovative K-8 school in East Bay."
+          "Recommend an innovative K-8 school in East Bay.",
+          "Recommend some K-8 schools in East Bay that use personalized learning."
         ],
-        "note": "vs 21 Sep 54.7 (+1.7)"
+        "note": "vs 28 Sep 56.4 (-5.6)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -1842,7 +1842,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "fort-worth",
@@ -1859,13 +1859,13 @@
         "market": "fort_worth",
         "label": "Fort Worth",
         "prompt_count": 3,
-        "avg_vis": 62.6,
+        "avg_vis": 63.6,
         "prompts": [
+          "Find top private K-8 schools in Fort Worth.",
           "Recommend an innovative K-8 school in Fort Worth.",
-          "Recommend some K-8 schools in Fort Worth that use personalized learning.",
-          "Find top private K-8 schools in Fort Worth."
+          "Recommend some K-8 schools in Fort Worth that use personalized learning."
         ],
-        "note": "vs 21 Sep 61.0 (+1.6)"
+        "note": "vs 28 Sep 62.6 (+1.0)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -1877,7 +1877,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "orange-county",
@@ -1894,13 +1894,13 @@
         "market": "orange_county",
         "label": "Orange County",
         "prompt_count": 3,
-        "avg_vis": 70.0,
+        "avg_vis": 65.4,
         "prompts": [
-          "Recommend some K-8 schools in Orange County that use personalized learning.",
+          "Compare private schools in Orange County that feature personalized learning for advanced learners.",
           "Recommend an innovative K-8 school in Orange County.",
-          "Compare private schools in Orange County that feature personalized learning for advanced learners."
+          "Recommend some K-8 schools in Orange County that use personalized learning."
         ],
-        "note": "vs 21 Sep 73.6 (-3.6)"
+        "note": "vs 28 Sep 70.0 (-4.6)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -1912,7 +1912,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "palo-alto",
@@ -1929,13 +1929,13 @@
         "market": "palo_alto",
         "label": "Palo Alto",
         "prompt_count": 3,
-        "avg_vis": 58.1,
+        "avg_vis": 56.2,
         "prompts": [
-          "Recommend an innovative K-8 school in Palo Alto.",
           "Find top private K-8 schools in Palo Alto.",
+          "Recommend an innovative K-8 school in Palo Alto.",
           "Recommend some K-8 schools in Palo Alto that use personalized learning."
         ],
-        "note": "vs 21 Sep 57.9 (+0.2)"
+        "note": "vs 28 Sep 58.1 (-1.9)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -1947,7 +1947,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "charlotte",
@@ -1964,13 +1964,13 @@
         "market": "charlotte",
         "label": "Charlotte",
         "prompt_count": 3,
-        "avg_vis": 44.9,
+        "avg_vis": 48.6,
         "prompts": [
-          "Recommend some K-8 schools in Charlotte that use personalized learning.",
           "Find top private K-8 schools in Charlotte.",
-          "Recommend an innovative K-8 school in Charlotte."
+          "Recommend an innovative K-8 school in Charlotte.",
+          "Recommend some K-8 schools in Charlotte that use personalized learning."
         ],
-        "note": "vs 21 Sep 40.3 (+4.6)"
+        "note": "vs 28 Sep 44.9 (+3.7)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -1982,7 +1982,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "dorado",
@@ -1999,13 +1999,13 @@
         "market": "dorado",
         "label": "Dorado",
         "prompt_count": 3,
-        "avg_vis": 73.7,
+        "avg_vis": 73.5,
         "prompts": [
           "Find top private K-8 schools in Dorado.",
-          "Recommend some K-8 schools in Dorado that use personalized learning.",
-          "Recommend an innovative K-8 school in Dorado."
+          "Recommend an innovative K-8 school in Dorado.",
+          "Recommend some K-8 schools in Dorado that use personalized learning."
         ],
-        "note": "vs 21 Sep 69.4 (+4.3)"
+        "note": "vs 28 Sep 73.7 (-0.2)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2017,7 +2017,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "raleigh",
@@ -2034,13 +2034,13 @@
         "market": "raleigh",
         "label": "Raleigh",
         "prompt_count": 3,
-        "avg_vis": 31.1,
+        "avg_vis": 32.3,
         "prompts": [
-          "Recommend some K-8 schools in Raleigh that use personalized learning.",
+          "Find top private K-8 schools in Raleigh.",
           "Recommend an innovative K-8 school in Raleigh.",
-          "Find top private K-8 schools in Raleigh."
+          "Recommend some K-8 schools in Raleigh that use personalized learning."
         ],
-        "note": "vs 21 Sep 31.5 (-0.4)"
+        "note": "vs 28 Sep 31.1 (+1.2)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2052,7 +2052,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "palm-beach",
@@ -2069,13 +2069,13 @@
         "market": "palm_beach",
         "label": "Palm Beach",
         "prompt_count": 3,
-        "avg_vis": 65.8,
+        "avg_vis": 64.3,
         "prompts": [
           "Find top private K-8 schools in Palm Beach.",
-          "Recommend some K-8 schools in Palm Beach that use personalized learning.",
-          "Recommend an innovative K-8 school in Palm Beach."
+          "Recommend an innovative K-8 school in Palm Beach.",
+          "Recommend some K-8 schools in Palm Beach that use personalized learning."
         ],
-        "note": "vs 21 Sep 64.6 (+1.2)"
+        "note": "vs 28 Sep 65.8 (-1.5)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2087,7 +2087,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "miami",
@@ -2104,15 +2104,15 @@
         "market": "miami",
         "label": "Miami",
         "prompt_count": 5,
-        "avg_vis": 47.8,
+        "avg_vis": 46.8,
         "prompts": [
           "Are there any schools in Miami using AI for gifted students?",
-          "Where can I find modern K-8 education in Miami?",
+          "Find me a K-8 program in Miami that focuses on individual academic growth.",
           "Help me find quality life skills classes for kids in Miami.",
           "Show me private middle schools located in Miami.",
-          "Find me a K-8 program in Miami that focuses on individual academic growth."
+          "Where can I find modern K-8 education in Miami?"
         ],
-        "note": "vs 21 Sep 47.2 (+0.6)"
+        "note": "vs 28 Sep 47.8 (-1.0)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2124,7 +2124,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "santa-barbara",
@@ -2141,13 +2141,13 @@
         "market": "santa_barbara",
         "label": "Santa Barbara",
         "prompt_count": 3,
-        "avg_vis": 48.5,
+        "avg_vis": 48.1,
         "prompts": [
+          "Find top private K-8 schools in Santa Barbara.",
           "Recommend an innovative K-8 school in Santa Barbara.",
-          "Recommend some K-8 schools in Santa Barbara that use personalized learning.",
-          "Find top private K-8 schools in Santa Barbara."
+          "Recommend some K-8 schools in Santa Barbara that use personalized learning."
         ],
-        "note": "vs 21 Sep 48.2 (+0.3)"
+        "note": "vs 28 Sep 48.5 (-0.4)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2159,7 +2159,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "chicago",
@@ -2176,13 +2176,13 @@
         "market": "chicago",
         "label": "Chicago",
         "prompt_count": 3,
-        "avg_vis": 16.9,
+        "avg_vis": 18.9,
         "prompts": [
-          "Recommend some K-8 schools in Chicago that use personalized learning.",
+          "Find top private K-8 schools in Chicago.",
           "Recommend an innovative K-8 school in Chicago.",
-          "Find top private K-8 schools in Chicago."
+          "Recommend some K-8 schools in Chicago that use personalized learning."
         ],
-        "note": "vs 21 Sep 16.6 (+0.3)"
+        "note": "vs 28 Sep 16.9 (+2.0)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2194,7 +2194,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "southlake",
@@ -2211,13 +2211,13 @@
         "market": "southlake",
         "label": "Southlake",
         "prompt_count": 3,
-        "avg_vis": 74.9,
+        "avg_vis": 75.6,
         "prompts": [
-          "Recommend some K-8 schools in Southlake that use personalized learning.",
           "Find top private K-8 schools in Southlake.",
-          "Recommend an innovative K-8 school in Southlake."
+          "Recommend an innovative K-8 school in Southlake.",
+          "Recommend some K-8 schools in Southlake that use personalized learning."
         ],
-        "note": "vs 21 Sep 74.5 (+0.4)"
+        "note": "vs 28 Sep 74.9 (+0.7)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2229,7 +2229,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "the-woodlands",
@@ -2246,13 +2246,13 @@
         "market": "the_woodlands",
         "label": "The Woodlands",
         "prompt_count": 3,
-        "avg_vis": 72.6,
+        "avg_vis": 73.9,
         "prompts": [
-          "Recommend some K-8 schools in The Woodlands that use personalized learning.",
           "Find top private K-8 schools in The Woodlands.",
-          "Recommend an innovative K-8 school in The Woodlands."
+          "Recommend an innovative K-8 school in The Woodlands.",
+          "Recommend some K-8 schools in The Woodlands that use personalized learning."
         ],
-        "note": "vs 21 Sep 69.5 (+3.1)"
+        "note": "vs 28 Sep 72.6 (+1.3)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2264,7 +2264,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "santa-monica",
@@ -2281,13 +2281,13 @@
         "market": "santa_monica",
         "label": "Santa Monica",
         "prompt_count": 3,
-        "avg_vis": 56.6,
+        "avg_vis": 52.7,
         "prompts": [
-          "Recommend some K-8 schools in Santa Monica that use personalized learning.",
           "Find top private K-8 schools in Santa Monica.",
-          "Recommend an innovative K-8 school in Santa Monica."
+          "Recommend an innovative K-8 school in Santa Monica.",
+          "Recommend some K-8 schools in Santa Monica that use personalized learning."
         ],
-        "note": "vs 21 Sep 55.6 (+1.0)"
+        "note": "vs 28 Sep 56.6 (-3.9)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2299,7 +2299,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "scottsdale",
@@ -2316,12 +2316,12 @@
         "market": "scottsdale",
         "label": "Scottsdale",
         "prompt_count": 2,
-        "avg_vis": 64.5,
+        "avg_vis": 61.7,
         "prompts": [
-          "Which schools in Scottsdale offer the best personalized curriculum for elementary students?",
-          "Compare the academic approaches of progressive elementary schools in Scottsdale."
+          "Compare the academic approaches of progressive elementary schools in Scottsdale.",
+          "Which schools in Scottsdale offer the best personalized curriculum for elementary students?"
         ],
-        "note": "vs 21 Sep 71.1 (-6.6)"
+        "note": "vs 28 Sep 64.5 (-2.8)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2333,7 +2333,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "austin",
@@ -2350,15 +2350,15 @@
         "market": "austin",
         "label": "Austin",
         "prompt_count": 5,
-        "avg_vis": 45.7,
+        "avg_vis": 43.1,
         "prompts": [
-          "Recommend kid-friendly life skills workshops in Austin.",
           "Find top private K-8 schools in Austin for my child.",
           "Recommend an innovative K-8 school in Austin.",
+          "Recommend kid-friendly life skills workshops in Austin.",
           "Recommend some K-8 schools in Austin that use personalized learning.",
           "Recommend top schools for gifted children in Austin."
         ],
-        "note": "vs 21 Sep 46.3 (-0.6)"
+        "note": "vs 28 Sep 45.7 (-2.6)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2370,7 +2370,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "san-francisco",
@@ -2387,15 +2387,15 @@
         "market": "san_francisco",
         "label": "San Francisco",
         "prompt_count": 5,
-        "avg_vis": 45.1,
+        "avg_vis": 41.4,
         "prompts": [
           "Find enrichment activities focused on real-world life skills in San Francisco.",
           "Find me a tech-focused elementary school in San Francisco.",
+          "Recommend good elementary schools in San Francisco using modern teaching methods.",
           "Show me K-8 programs in San Francisco that support accelerated learning.",
-          "Show me primary schools in San Francisco with AI-driven study models.",
-          "Recommend good elementary schools in San Francisco using modern teaching methods."
+          "Show me primary schools in San Francisco with AI-driven study models."
         ],
-        "note": "vs 21 Sep 45.2 (-0.1)"
+        "note": "vs 28 Sep 45.1 (-3.7)"
       },
       "gsc": null,
       "serp": "Not top 10",
@@ -2407,7 +2407,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "brownsville",
@@ -2424,13 +2424,13 @@
         "market": "brownsville",
         "label": "Brownsville",
         "prompt_count": 3,
-        "avg_vis": 74.2,
+        "avg_vis": 71.9,
         "prompts": [
-          "Recommend some K-8 schools in Brownsville that use personalized learning.",
           "Find top private K-8 schools in Brownsville.",
-          "Recommend an innovative K-8 school in Brownsville."
+          "Recommend an innovative K-8 school in Brownsville.",
+          "Recommend some K-8 schools in Brownsville that use personalized learning."
         ],
-        "note": "vs 21 Sep 73.0 (+1.2)"
+        "note": "vs 28 Sep 74.2 (-2.3)"
       },
       "gsc": null,
       "serp": "#1",
@@ -2442,7 +2442,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "chantilly",
@@ -2459,13 +2459,13 @@
         "market": "chantilly",
         "label": "Chantilly",
         "prompt_count": 3,
-        "avg_vis": 88.9,
+        "avg_vis": 89.3,
         "prompts": [
+          "Find top private K-8 schools in Chantilly.",
           "Recommend an innovative K-8 school in Chantilly.",
-          "Recommend some K-8 schools in Chantilly that use personalized learning.",
-          "Find top private K-8 schools in Chantilly."
+          "Recommend some K-8 schools in Chantilly that use personalized learning."
         ],
-        "note": "vs 21 Sep 87.1 (+1.8)"
+        "note": "vs 28 Sep 88.9 (+0.4)"
       },
       "gsc": null,
       "serp": "#1",
@@ -2477,7 +2477,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "Rank",
-      "next_meter": "improve local SERP / pplx rank"
+      "next_meter": "earn a local-list citation, do not write a listicle"
     },
     {
       "id": "austin-high",
@@ -2494,15 +2494,15 @@
         "market": "austin",
         "label": "Austin",
         "prompt_count": 5,
-        "avg_vis": 45.7,
+        "avg_vis": 43.1,
         "prompts": [
-          "Recommend kid-friendly life skills workshops in Austin.",
           "Find top private K-8 schools in Austin for my child.",
           "Recommend an innovative K-8 school in Austin.",
+          "Recommend kid-friendly life skills workshops in Austin.",
           "Recommend some K-8 schools in Austin that use personalized learning.",
           "Recommend top schools for gifted children in Austin."
         ],
-        "note": "vs 21 Sep 46.3 (-0.6)"
+        "note": "vs 28 Sep 45.7 (-2.6)"
       },
       "gsc": null,
       "serp": null,
@@ -2533,13 +2533,13 @@
         "prompt_count": 5,
         "avg_vis": 2.0,
         "prompts": [
-          "Are there any tech-focused private schools for grades K-8 in Washington DC?",
           "Are there any forward-thinking private schools in Washington DC?",
-          "How does AI-driven curriculum in Washington DC schools benefit high-achieving students?",
           "Are there any schools in Washington DC using tech-based personalized learning for kids?",
+          "Are there any tech-focused private schools for grades K-8 in Washington DC?",
+          "How does AI-driven curriculum in Washington DC schools benefit high-achieving students?",
           "Need affordable life skills training for middle schoolers in Washington DC."
         ],
-        "note": "vs 21 Sep 2.3 (-0.3)"
+        "note": "Peec text is Washington DC, not the campus name."
       },
       "gsc": null,
       "serp": null,
@@ -2551,7 +2551,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "boca-raton",
@@ -2568,13 +2568,13 @@
         "market": "boca_raton",
         "label": "Boca Raton",
         "prompt_count": 3,
-        "avg_vis": 52.4,
+        "avg_vis": 53.3,
         "prompts": [
-          "Recommend some K-8 schools in Boca Raton that use personalized learning.",
           "Find top private K-8 schools in Boca Raton.",
-          "Recommend an innovative K-8 school in Boca Raton."
+          "Recommend an innovative K-8 school in Boca Raton.",
+          "Recommend some K-8 schools in Boca Raton that use personalized learning."
         ],
-        "note": "vs 21 Sep 54.3 (-1.9)"
+        "note": "vs 28 Sep 52.4 (+0.9)"
       },
       "gsc": null,
       "serp": null,
@@ -2586,7 +2586,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "boston",
@@ -2603,13 +2603,13 @@
         "market": "boston",
         "label": "Boston",
         "prompt_count": 3,
-        "avg_vis": 27.0,
+        "avg_vis": 25.3,
         "prompts": [
-          "Recommend an innovative K-8 school in Boston.",
           "Find top private K-8 schools in Boston.",
+          "Recommend an innovative K-8 school in Boston.",
           "Recommend some K-8 schools in Boston that use personalized learning."
         ],
-        "note": "vs 21 Sep 25.9 (+1.1)"
+        "note": "vs 28 Sep 27.0 (-1.7)"
       },
       "gsc": null,
       "serp": null,
@@ -2621,7 +2621,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "carrollton",
@@ -2638,13 +2638,13 @@
         "market": "carrollton",
         "label": "Carrollton",
         "prompt_count": 3,
-        "avg_vis": 66.8,
+        "avg_vis": 65.4,
         "prompts": [
           "Find top private K-8 schools in Carrollton.",
           "Recommend an innovative K-8 school in Carrollton.",
           "Recommend some K-8 schools in Carrollton that use personalized learning."
         ],
-        "note": "vs 21 Sep 61.9 (+4.9)"
+        "note": "vs 28 Sep 66.8 (-1.4)"
       },
       "gsc": null,
       "serp": null,
@@ -2656,7 +2656,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "denver",
@@ -2673,13 +2673,13 @@
         "market": "denver",
         "label": "Denver",
         "prompt_count": 3,
-        "avg_vis": 8.0,
+        "avg_vis": 10.2,
         "prompts": [
+          "Find top private K-8 schools in Denver.",
           "Recommend an innovative K-8 school in Denver.",
-          "Recommend some K-8 schools in Denver that use personalized learning.",
-          "Find top private K-8 schools in Denver."
+          "Recommend some K-8 schools in Denver that use personalized learning."
         ],
-        "note": "vs 21 Sep 7.2 (+0.8)"
+        "note": "vs 28 Sep 8.0 (+2.2)"
       },
       "gsc": null,
       "serp": null,
@@ -2691,7 +2691,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "franklin",
@@ -2708,13 +2708,13 @@
         "market": "franklin",
         "label": "Franklin",
         "prompt_count": 3,
-        "avg_vis": 41.7,
+        "avg_vis": 44.2,
         "prompts": [
           "Find top private K-8 schools in Franklin.",
-          "Recommend some K-8 schools in Franklin that use personalized learning.",
-          "Recommend an innovative K-8 school in Franklin."
+          "Recommend an innovative K-8 school in Franklin.",
+          "Recommend some K-8 schools in Franklin that use personalized learning."
         ],
-        "note": "vs 21 Sep 31.9 (+9.8)"
+        "note": "vs 28 Sep 41.7 (+2.5)"
       },
       "gsc": null,
       "serp": null,
@@ -2726,7 +2726,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "greenwich-armonk",
@@ -2743,13 +2743,13 @@
         "market": "greenwich",
         "label": "Greenwich",
         "prompt_count": 3,
-        "avg_vis": 43.8,
+        "avg_vis": 39.4,
         "prompts": [
-          "Recommend some K-8 schools in Greenwich that use personalized learning.",
           "Find top private K-8 schools in Greenwich.",
-          "Recommend an innovative K-8 school in Greenwich."
+          "Recommend an innovative K-8 school in Greenwich.",
+          "Recommend some K-8 schools in Greenwich that use personalized learning."
         ],
-        "note": "vs 21 Sep 46.3 (-2.5)"
+        "note": "vs 28 Sep 43.8 (-4.4)"
       },
       "gsc": null,
       "serp": null,
@@ -2761,7 +2761,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "greenwich",
@@ -2778,13 +2778,13 @@
         "market": "greenwich",
         "label": "Greenwich",
         "prompt_count": 3,
-        "avg_vis": 43.8,
+        "avg_vis": 39.4,
         "prompts": [
-          "Recommend some K-8 schools in Greenwich that use personalized learning.",
           "Find top private K-8 schools in Greenwich.",
-          "Recommend an innovative K-8 school in Greenwich."
+          "Recommend an innovative K-8 school in Greenwich.",
+          "Recommend some K-8 schools in Greenwich that use personalized learning."
         ],
-        "note": "vs 21 Sep 46.3 (-2.5)"
+        "note": "vs 28 Sep 43.8 (-4.4)"
       },
       "gsc": null,
       "serp": null,
@@ -2796,7 +2796,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "highland-park",
@@ -2813,13 +2813,13 @@
         "market": "highland_park",
         "label": "Highland Park",
         "prompt_count": 3,
-        "avg_vis": 43.6,
+        "avg_vis": 42.4,
         "prompts": [
           "Find top private K-8 schools in Highland Park.",
           "Recommend an innovative K-8 school in Highland Park.",
           "Recommend some K-8 schools in Highland Park that use personalized learning."
         ],
-        "note": "vs 21 Sep 43.4 (+0.2)"
+        "note": "vs 28 Sep 43.6 (-1.2)"
       },
       "gsc": null,
       "serp": null,
@@ -2831,7 +2831,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "houston-heights",
@@ -2848,13 +2848,13 @@
         "market": "houston",
         "label": "Houston",
         "prompt_count": 3,
-        "avg_vis": 20.7,
+        "avg_vis": 21.8,
         "prompts": [
           "Find top private K-8 schools in Houston.",
-          "Recommend some K-8 schools in Houston that use personalized learning.",
-          "Recommend an innovative K-8 school in Houston."
+          "Recommend an innovative K-8 school in Houston.",
+          "Recommend some K-8 schools in Houston that use personalized learning."
         ],
-        "note": "vs 21 Sep 17.1 (+3.6)"
+        "note": "vs 28 Sep 20.7 (+1.1)"
       },
       "gsc": null,
       "serp": null,
@@ -2866,7 +2866,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "jamaica-plain",
@@ -2883,13 +2883,13 @@
         "market": "jamaica_plain",
         "label": "Jamaica Plain",
         "prompt_count": 3,
-        "avg_vis": 61.8,
+        "avg_vis": 61.7,
         "prompts": [
-          "Recommend some K-8 schools in Jamaica Plain that use personalized learning.",
+          "Find top private K-8 schools in Jamaica Plain.",
           "Recommend an innovative K-8 school in Jamaica Plain.",
-          "Find top private K-8 schools in Jamaica Plain."
+          "Recommend some K-8 schools in Jamaica Plain that use personalized learning."
         ],
-        "note": "vs 21 Sep 58.6 (+3.2)"
+        "note": "vs 28 Sep 61.8 (-0.1)"
       },
       "gsc": null,
       "serp": null,
@@ -2901,7 +2901,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "kirkland",
@@ -2918,13 +2918,13 @@
         "market": "kirkland",
         "label": "Kirkland",
         "prompt_count": 3,
-        "avg_vis": 69.4,
+        "avg_vis": 72.9,
         "prompts": [
+          "Find top private K-8 schools in Kirkland.",
           "Recommend an innovative K-8 school in Kirkland.",
-          "Recommend some K-8 schools in Kirkland that use personalized learning.",
-          "Find top private K-8 schools in Kirkland."
+          "Recommend some K-8 schools in Kirkland that use personalized learning."
         ],
-        "note": "vs 21 Sep 65.9 (+3.5)"
+        "note": "vs 28 Sep 69.4 (+3.5)"
       },
       "gsc": null,
       "serp": null,
@@ -2936,7 +2936,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "la-jolla",
@@ -2953,13 +2953,13 @@
         "market": "la_jolla",
         "label": "La Jolla",
         "prompt_count": 3,
-        "avg_vis": 46.4,
+        "avg_vis": 48.3,
         "prompts": [
-          "Recommend some K-8 schools in La Jolla that use personalized learning.",
           "Find top private K-8 schools in La Jolla.",
-          "Recommend an innovative K-8 school in La Jolla."
+          "Recommend an innovative K-8 school in La Jolla.",
+          "Recommend some K-8 schools in La Jolla that use personalized learning."
         ],
-        "note": "vs 21 Sep 44.8 (+1.6)"
+        "note": "vs 28 Sep 46.4 (+1.9)"
       },
       "gsc": null,
       "serp": null,
@@ -2971,7 +2971,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "lake-travis",
@@ -2988,13 +2988,13 @@
         "market": "lake_travis",
         "label": "Lake Travis",
         "prompt_count": 3,
-        "avg_vis": 54.6,
+        "avg_vis": 58.2,
         "prompts": [
-          "Recommend some K-8 schools in Lake Travis that use personalized learning.",
+          "Find top private K-8 schools in Lake Travis.",
           "Recommend an innovative K-8 school in Lake Travis.",
-          "Find top private K-8 schools in Lake Travis."
+          "Recommend some K-8 schools in Lake Travis that use personalized learning."
         ],
-        "note": "vs 21 Sep 53.3 (+1.3)"
+        "note": "vs 28 Sep 54.6 (+3.6)"
       },
       "gsc": null,
       "serp": null,
@@ -3006,7 +3006,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "lexington",
@@ -3023,13 +3023,13 @@
         "market": "boston",
         "label": "Boston",
         "prompt_count": 3,
-        "avg_vis": 27.0,
+        "avg_vis": 25.3,
         "prompts": [
-          "Recommend an innovative K-8 school in Boston.",
           "Find top private K-8 schools in Boston.",
+          "Recommend an innovative K-8 school in Boston.",
           "Recommend some K-8 schools in Boston that use personalized learning."
         ],
-        "note": "vs 21 Sep 25.9 (+1.1)"
+        "note": "vs 28 Sep 27.0 (-1.7)"
       },
       "gsc": null,
       "serp": null,
@@ -3041,7 +3041,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "malibu",
@@ -3058,13 +3058,13 @@
         "market": "malibu",
         "label": "Malibu",
         "prompt_count": 3,
-        "avg_vis": 79.2,
+        "avg_vis": 79.4,
         "prompts": [
+          "Find top private K-8 schools in Malibu.",
           "Recommend an innovative K-8 school in Malibu.",
-          "Recommend some K-8 schools in Malibu that use personalized learning.",
-          "Find top private K-8 schools in Malibu."
+          "Recommend some K-8 schools in Malibu that use personalized learning."
         ],
-        "note": "vs 21 Sep 75.9 (+3.3)"
+        "note": "vs 28 Sep 79.2 (+0.2)"
       },
       "gsc": null,
       "serp": null,
@@ -3076,13 +3076,13 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "miami-beach",
       "hubspot_name": "Alpha Miami Beach",
       "display": "Miami Beach",
-      "city": "Miami",
+      "city": "Miami Beach",
       "state": "FL",
       "type": "Open",
       "visibility": "Visible",
@@ -3093,13 +3093,13 @@
         "market": "miami_beach",
         "label": "Miami Beach",
         "prompt_count": 3,
-        "avg_vis": 61.4,
+        "avg_vis": 58.4,
         "prompts": [
           "Find top private K-8 schools in Miami Beach.",
-          "Recommend some K-8 schools in Miami Beach that use personalized learning.",
-          "Recommend an innovative K-8 school in Miami Beach."
+          "Recommend an innovative K-8 school in Miami Beach.",
+          "Recommend some K-8 schools in Miami Beach that use personalized learning."
         ],
-        "note": "vs 21 Sep 62.0 (-0.6)"
+        "note": "vs 28 Sep 61.4 (-3.0)"
       },
       "gsc": null,
       "serp": null,
@@ -3111,7 +3111,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "nashville",
@@ -3128,13 +3128,13 @@
         "market": "nashville",
         "label": "Nashville",
         "prompt_count": 3,
-        "avg_vis": 37.2,
+        "avg_vis": 33.8,
         "prompts": [
           "Find top private K-8 schools in Nashville.",
-          "Recommend some K-8 schools in Nashville that use personalized learning.",
-          "Recommend an innovative K-8 school in Nashville."
+          "Recommend an innovative K-8 school in Nashville.",
+          "Recommend some K-8 schools in Nashville that use personalized learning."
         ],
-        "note": "vs 21 Sep 38.0 (-0.8)"
+        "note": "vs 28 Sep 37.2 (-3.4)"
       },
       "gsc": null,
       "serp": null,
@@ -3146,7 +3146,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "new-york",
@@ -3163,11 +3163,11 @@
         "market": "new_york_city",
         "label": "New York City",
         "prompt_count": 1,
-        "avg_vis": 12.8,
+        "avg_vis": 16.9,
         "prompts": [
           "What are the most innovative private elementary schools in New York City?"
         ],
-        "note": "vs 21 Sep 11.8 (+1.0)"
+        "note": "NYC tracked in Peec, excluded from local board."
       },
       "gsc": null,
       "serp": null,
@@ -3179,7 +3179,7 @@
       },
       "exclude_from_local_board": true,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "oklahoma-city",
@@ -3196,13 +3196,13 @@
         "market": "oklahoma_city",
         "label": "Oklahoma City",
         "prompt_count": 3,
-        "avg_vis": 20.0,
+        "avg_vis": 24.0,
         "prompts": [
-          "Recommend some K-8 schools in Oklahoma City that use personalized learning.",
+          "Find top private K-8 schools in Oklahoma City.",
           "Recommend an innovative K-8 school in Oklahoma City.",
-          "Find top private K-8 schools in Oklahoma City."
+          "Recommend some K-8 schools in Oklahoma City that use personalized learning."
         ],
-        "note": "vs 21 Sep 18.2 (+1.8)"
+        "note": "vs 28 Sep 20.0 (+4.0)"
       },
       "gsc": null,
       "serp": null,
@@ -3214,7 +3214,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "park-city",
@@ -3231,13 +3231,13 @@
         "market": "park_city",
         "label": "Park City",
         "prompt_count": 3,
-        "avg_vis": 56.6,
+        "avg_vis": 51.4,
         "prompts": [
           "Find top private K-8 schools in Park City.",
           "Recommend an innovative K-8 school in Park City.",
           "Recommend some K-8 schools in Park City that use personalized learning."
         ],
-        "note": "vs 21 Sep 56.8 (-0.2)"
+        "note": "vs 28 Sep 56.6 (-5.2)"
       },
       "gsc": null,
       "serp": null,
@@ -3249,7 +3249,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "south-bay-la",
@@ -3266,13 +3266,13 @@
         "market": "manhattan_beach",
         "label": "Manhattan Beach",
         "prompt_count": 3,
-        "avg_vis": 15.5,
+        "avg_vis": 7.0,
         "prompts": [
+          "Find top private K-8 schools in Manhattan Beach.",
           "Recommend an innovative K-8 school in Manhattan Beach.",
-          "Recommend some K-8 schools in Manhattan Beach that use personalized learning.",
-          "Find top private K-8 schools in Manhattan Beach."
+          "Recommend some K-8 schools in Manhattan Beach that use personalized learning."
         ],
-        "note": "vs 21 Sep 28.4 (-12.9)"
+        "note": "vs 28 Sep 15.5 (-8.5)"
       },
       "gsc": null,
       "serp": null,
@@ -3284,7 +3284,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     },
     {
       "id": "tulsa",
@@ -3301,13 +3301,13 @@
         "market": "tulsa",
         "label": "Tulsa",
         "prompt_count": 3,
-        "avg_vis": 42.0,
+        "avg_vis": 39.9,
         "prompts": [
           "Find top private K-8 schools in Tulsa.",
           "Recommend an innovative K-8 school in Tulsa.",
           "Recommend some K-8 schools in Tulsa that use personalized learning."
         ],
-        "note": "vs 21 Sep 42.7 (-0.7)"
+        "note": "vs 28 Sep 42.0 (-2.1)"
       },
       "gsc": null,
       "serp": null,
@@ -3319,7 +3319,7 @@
       },
       "exclude_from_local_board": false,
       "hole": "No Niche",
-      "next_meter": "claim / verify Niche profile"
+      "next_meter": "claim the campus Niche profile"
     }
   ]
 }
