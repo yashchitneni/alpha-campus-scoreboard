@@ -4,7 +4,7 @@
     "line": "HubSpot Campus List is the source of truth. Peec, GSC, and local SERP are meters on that list. Goal is enrollment across campuses, not one city.",
     "as_of": "19 Oct 2026",
     "peec_window": "last 30d (20 Sep\u201319 Oct 2026). 150 prompts. Overall Alpha vis 42.7%.",
-    "gsc_window": "GSC dark this run (pending browser check); gsc cells null; nothing exported",
+    "gsc_window": "last 28d (20 Sep\u201317 Oct 2026) via info@alpha.school, sc-domain:alpha.school, Search (Web)",
     "local_score_as_of": "16 Aug 2026 pplx snapshot (not refreshed)",
     "hubspot_portal": "40051392",
     "hubspot_object": "p40051392_programs",
@@ -38,7 +38,8 @@
     "notes": [
       "Overall Alpha Peec vis 43.7% \u2192 42.7% (-1.0 pp). Window 20 Sep\u201319 Oct 2026 (150 prompts; same ids as 12 Oct). Avg position 1.9.",
       "HubSpot kept 95 \u2192 95; no new, removed, type, visibility or show_in_dashboard changes. OAV default filter 44 \u2192 44. South Bay LA HubSpot city Playa Vista \u2192 Los Angeles.",
-      "GSC dark this run (pending browser check); gsc cells null; CTR hole not assigned; prior exports not reused.",
+      "GSC live this run (dark 28 Sep, 5 Oct, 12 Oct): window 20 Sep\u201317 Oct 2026; site 74.2K clicks, 961K impressions, 7.7% CTR, pos 6.8. 43/44 board campuses have an exact city-page row (Austin High on alphahigh.school has none). CTR in percent.",
+      "CTR hole rule as last applied with GSC live (21 Sep): only after No Niche, city-page CTR under ~3%. CTR assigned 0 on board; lowest Verified+measured: San Francisco 3.76%, Fort Worth 3.94%, Plano 4.06%.",
       "Biggest Peec movers vs 12 Oct: east_bay -10.3; palo_alto -10.2; la_jolla +5.5; miami_beach -5.1; malibu -4.5.",
       "Default-filter Blind: San Juan. Queued 0. Austin 3-set unchanged (NEAR-only for Find top private K-8\u2026; exact without 'for my child' missing).",
       "SERP / pplx_score carried from 12 Oct (16 Aug pplx snapshot). Niche: HubSpot nichecom_profile \u2192 Verified (carry reviews when same slug); else carry prior; else Missing."
@@ -1677,7 +1678,12 @@
       "website": "https://alpha.school/san-juan/",
       "has_city_page": true,
       "peec": null,
-      "gsc": null,
+      "gsc": {
+        "clicks": 78,
+        "impressions": 1258,
+        "ctr": 6.2,
+        "position": 5.54
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -1882,7 +1888,12 @@
         ],
         "note": "vs 12 Oct 2.2 (+0.2)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 183,
+        "impressions": 3078,
+        "ctr": 5.95,
+        "position": 5.42
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -1917,7 +1928,12 @@
         ],
         "note": "vs 12 Oct 5.2 (+0.4)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 336,
+        "impressions": 6286,
+        "ctr": 5.35,
+        "position": 4.01
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -1952,7 +1968,12 @@
         ],
         "note": "vs 12 Oct 10.8 (-1.5)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 447,
+        "impressions": 6019,
+        "ctr": 7.43,
+        "position": 3.28
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -1987,7 +2008,12 @@
         ],
         "note": "vs 12 Oct 23.0 (-2.9)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 615,
+        "impressions": 6053,
+        "ctr": 10.16,
+        "position": 4.77
+      },
       "serp": "Not top 10",
       "pplx_score": 20,
       "niche": {
@@ -2022,7 +2048,12 @@
         ],
         "note": "vs 12 Oct 46.6 (-10.3)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 406,
+        "impressions": 6043,
+        "ctr": 6.72,
+        "position": 6.41
+      },
       "serp": "Not top 10",
       "pplx_score": 20,
       "niche": {
@@ -2057,7 +2088,12 @@
         ],
         "note": "vs 12 Oct 54.6 (-10.2)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 1113,
+        "impressions": 21377,
+        "ctr": 5.21,
+        "position": 3.02
+      },
       "serp": "Not top 10",
       "pplx_score": 20,
       "niche": {
@@ -2092,7 +2128,12 @@
         ],
         "note": "vs 12 Oct 21.6 (-1.3)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 389,
+        "impressions": 4046,
+        "ctr": 9.61,
+        "position": 4.89
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2127,7 +2168,12 @@
         ],
         "note": "vs 12 Oct 23.4 (-0.5)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 480,
+        "impressions": 5064,
+        "ctr": 9.48,
+        "position": 5.1
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2162,7 +2208,12 @@
         ],
         "note": "vs 12 Oct 25.0 (-1.2)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 804,
+        "impressions": 5755,
+        "ctr": 13.97,
+        "position": 3.01
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2197,7 +2248,12 @@
         ],
         "note": "vs 12 Oct 25.0 (-1.2)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 141,
+        "impressions": 3622,
+        "ctr": 3.89,
+        "position": 3.87
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2232,7 +2288,12 @@
         ],
         "note": "vs 12 Oct 77.5 (+1.7)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 620,
+        "impressions": 4264,
+        "ctr": 14.54,
+        "position": 4.4
+      },
       "serp": "Not top 10",
       "pplx_score": 25,
       "niche": {
@@ -2300,7 +2361,12 @@
         ],
         "note": "vs 12 Oct 20.6 (+1.8)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 4709,
+        "impressions": 28391,
+        "ctr": 16.59,
+        "position": 2.84
+      },
       "serp": "Not top 10",
       "pplx_score": 30,
       "niche": {
@@ -2335,7 +2401,12 @@
         ],
         "note": "vs 12 Oct 74.2 (-1.6)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 198,
+        "impressions": 3689,
+        "ctr": 5.37,
+        "position": 5.21
+      },
       "serp": "Not top 10",
       "pplx_score": 30,
       "niche": {
@@ -2370,7 +2441,12 @@
         ],
         "note": "vs 12 Oct 76.0 (+2.0)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 571,
+        "impressions": 10818,
+        "ctr": 5.28,
+        "position": 4.43
+      },
       "serp": "Not top 10",
       "pplx_score": 30,
       "niche": {
@@ -2405,7 +2481,12 @@
         ],
         "note": "vs 12 Oct 49.6 (-2.0)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 788,
+        "impressions": 10042,
+        "ctr": 7.85,
+        "position": 4.44
+      },
       "serp": "Not top 10",
       "pplx_score": 35,
       "niche": {
@@ -2440,7 +2521,12 @@
         ],
         "note": "vs 12 Oct 33.4 (+3.9)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 416,
+        "impressions": 4117,
+        "ctr": 10.1,
+        "position": 4.82
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2475,7 +2561,12 @@
         ],
         "note": "vs 12 Oct 39.1 (-0.1)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 337,
+        "impressions": 2844,
+        "ctr": 11.85,
+        "position": 5.01
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2510,7 +2601,12 @@
         ],
         "note": "vs 12 Oct 39.3 (+1.7)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 571,
+        "impressions": 9804,
+        "ctr": 5.82,
+        "position": 3.94
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2545,7 +2641,12 @@
         ],
         "note": "vs 12 Oct 39.3 (+1.7)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 571,
+        "impressions": 9804,
+        "ctr": 5.82,
+        "position": 3.94
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2580,7 +2681,12 @@
         ],
         "note": "vs 12 Oct 43.2 (+1.9)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 294,
+        "impressions": 5047,
+        "ctr": 5.83,
+        "position": 4.21
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2615,7 +2721,12 @@
         ],
         "note": "vs 12 Oct 45.6 (-0.4)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 52,
+        "impressions": 1350,
+        "ctr": 3.85,
+        "position": 6.13
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2650,7 +2761,12 @@
         ],
         "note": "vs 12 Oct 53.6 (-5.1)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 288,
+        "impressions": 6111,
+        "ctr": 4.71,
+        "position": 4.87
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2685,7 +2801,12 @@
         ],
         "note": "vs 12 Oct 52.2 (-2.9)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 381,
+        "impressions": 3187,
+        "ctr": 11.95,
+        "position": 4.91
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2720,7 +2841,12 @@
         ],
         "note": "vs 12 Oct 53.4 (-2.4)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 346,
+        "impressions": 1914,
+        "ctr": 18.08,
+        "position": 4.86
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2755,7 +2881,12 @@
         ],
         "note": "vs 12 Oct 52.4 (+5.5)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 399,
+        "impressions": 3063,
+        "ctr": 13.03,
+        "position": 4.13
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2790,7 +2921,12 @@
         ],
         "note": "vs 12 Oct 56.6 (+2.1)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 79,
+        "impressions": 4560,
+        "ctr": 1.73,
+        "position": 4.87
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2825,7 +2961,12 @@
         ],
         "note": "vs 12 Oct 64.9 (-1.8)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 198,
+        "impressions": 5616,
+        "ctr": 3.53,
+        "position": 4.98
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2860,7 +3001,12 @@
         ],
         "note": "vs 12 Oct 62.9 (+0.9)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 23,
+        "impressions": 988,
+        "ctr": 2.33,
+        "position": 7.99
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2895,7 +3041,12 @@
         ],
         "note": "vs 12 Oct 79.0 (-4.5)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 132,
+        "impressions": 2776,
+        "ctr": 4.76,
+        "position": 4.61
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2930,7 +3081,12 @@
         ],
         "note": "vs 12 Oct 80.9 (-0.2)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 745,
+        "impressions": 5835,
+        "ctr": 12.77,
+        "position": 4.44
+      },
       "serp": null,
       "pplx_score": null,
       "niche": {
@@ -2966,7 +3122,12 @@
         ],
         "note": "vs 12 Oct 56.3 (-1.3)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 273,
+        "impressions": 6732,
+        "ctr": 4.06,
+        "position": 7.11
+      },
       "serp": "Not top 10",
       "pplx_score": 15,
       "niche": {
@@ -3001,7 +3162,12 @@
         ],
         "note": "vs 12 Oct 66.3 (-0.6)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 301,
+        "impressions": 7635,
+        "ctr": 3.94,
+        "position": 6.82
+      },
       "serp": "Not top 10",
       "pplx_score": 20,
       "niche": {
@@ -3036,7 +3202,12 @@
         ],
         "note": "vs 12 Oct 61.9 (-1.2)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 621,
+        "impressions": 10251,
+        "ctr": 6.06,
+        "position": 5.55
+      },
       "serp": "Not top 10",
       "pplx_score": 20,
       "niche": {
@@ -3071,7 +3242,12 @@
         ],
         "note": "vs 12 Oct 48.6 (+0.5)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 540,
+        "impressions": 7289,
+        "ctr": 7.41,
+        "position": 6.65
+      },
       "serp": "Not top 10",
       "pplx_score": 25,
       "niche": {
@@ -3106,7 +3282,12 @@
         ],
         "note": "vs 12 Oct 36.2 (+2.5)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 663,
+        "impressions": 6913,
+        "ctr": 9.59,
+        "position": 8.17
+      },
       "serp": "Not top 10",
       "pplx_score": 25,
       "niche": {
@@ -3141,7 +3322,12 @@
         ],
         "note": "vs 12 Oct 65.0 (-2.9)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 431,
+        "impressions": 6371,
+        "ctr": 6.77,
+        "position": 5.4
+      },
       "serp": "Not top 10",
       "pplx_score": 26,
       "niche": {
@@ -3178,7 +3364,12 @@
         ],
         "note": "vs 12 Oct 44.8 (-0.9)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 1420,
+        "impressions": 25805,
+        "ctr": 5.5,
+        "position": 5.71
+      },
       "serp": "Not top 10",
       "pplx_score": 27,
       "niche": {
@@ -3213,7 +3404,12 @@
         ],
         "note": "vs 12 Oct 46.9 (-2.0)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 368,
+        "impressions": 4387,
+        "ctr": 8.39,
+        "position": 5.43
+      },
       "serp": "Not top 10",
       "pplx_score": 28,
       "niche": {
@@ -3247,7 +3443,12 @@
         ],
         "note": "vs 12 Oct 62.6 (-1.5)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 746,
+        "impressions": 7329,
+        "ctr": 10.18,
+        "position": 6.27
+      },
       "serp": "Not top 10",
       "pplx_score": 36,
       "niche": {
@@ -3284,7 +3485,12 @@
         ],
         "note": "vs 12 Oct 37.9 (-4.4)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 1527,
+        "impressions": 30785,
+        "ctr": 4.96,
+        "position": 4.49
+      },
       "serp": "Not top 10",
       "pplx_score": 38,
       "niche": {
@@ -3321,7 +3527,12 @@
         ],
         "note": "vs 12 Oct 41.0 (-0.2)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 1961,
+        "impressions": 52094,
+        "ctr": 3.76,
+        "position": 3.99
+      },
       "serp": "Not top 10",
       "pplx_score": 39,
       "niche": {
@@ -3356,7 +3567,12 @@
         ],
         "note": "vs 12 Oct 71.3 (-1.4)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 229,
+        "impressions": 4773,
+        "ctr": 4.8,
+        "position": 6.03
+      },
       "serp": "#1",
       "pplx_score": 60,
       "niche": {
@@ -3391,7 +3607,12 @@
         ],
         "note": "vs 12 Oct 88.8 (-2.5)"
       },
-      "gsc": null,
+      "gsc": {
+        "clicks": 488,
+        "impressions": 9346,
+        "ctr": 5.22,
+        "position": 5.97
+      },
       "serp": "#1",
       "pplx_score": 73,
       "niche": {
